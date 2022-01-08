@@ -12,7 +12,7 @@ from typing import List, Tuple
 from functools import reduce
 from collections import namedtuple
 from sortedcontainers import SortedListWithKey # type: ignore
-from .item import Item
+from item import Item
 
 
 class FreeRectangle(typing.NamedTuple('FreeRectangle', [('width', int), ('height', int), ('x', int), ('y', int)])):

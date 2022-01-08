@@ -7,8 +7,8 @@ ssbothwell@gmail.com
 """
 #from functools import reduce
 from typing import List, Tuple
-from .item import Item
-from . import guillotine
+from item import Item
+import guillotine
 
 
 class Shelf:

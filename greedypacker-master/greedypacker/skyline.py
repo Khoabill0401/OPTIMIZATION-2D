@@ -8,8 +8,8 @@ ssbothwell@gmail.com
 from typing import List, NamedTuple, Tuple
 from sortedcontainers import SortedList
 
-from . import guillotine
-from .item import Item
+import guillotine
+from item import Item
 
 
 SkylineSegment = NamedTuple('SkylineSegment', [('x', int),

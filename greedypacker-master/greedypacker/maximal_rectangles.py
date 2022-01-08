@@ -9,7 +9,7 @@ import typing
 from typing import List, Tuple, Union
 from functools import reduce
 from collections import namedtuple
-from .item import Item
+from item import Item
 
 
 class FreeRectangle(typing.NamedTuple('FreeRectangle', [('width', int), ('height', int), ('x', int), ('y', int)])):

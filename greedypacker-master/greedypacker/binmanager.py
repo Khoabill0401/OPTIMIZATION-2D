@@ -8,11 +8,11 @@ for packed bins.
 
 """
 from typing import List, Union, Callable, Optional, Any
-from . import item
-from . import shelf
-from . import guillotine
-from . import maximal_rectangles
-from . import skyline
+import item
+import shelf
+import guillotine
+import maximal_rectangles
+import skyline
 
 # Type Aliases:
 Algorithm = Union[shelf.Sheet, guillotine.Guillotine, maximal_rectangles.MaximalRectangle]
